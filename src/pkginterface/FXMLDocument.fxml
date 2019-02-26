@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.*?>
+<?import com.jfoenix.controls.*?>
+<?import de.jensd.fx.glyphs.fontawesome.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="1034.0" styleClass="parent" stylesheets="@stylesheet.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pkginterface.FXMLDocumentController">
+   <children>
+      <VBox prefHeight="600.0" prefWidth="287.0" styleClass="sidebar">
+         <children>
+            <Label prefHeight="75.0" prefWidth="295.0" style="-fx-background-color: #00A2D3;" text="Información" textFill="WHITE">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <padding>
+                  <Insets left="10.0" />
+               </padding>
+               <font>
+                  <Font name="Ebrima" size="18.0" />
+               </font>
+            </Label>
+            <HBox alignment="CENTER_LEFT" layoutX="10.0" layoutY="95.0" styleClass="btns">
+               <children>
+                  <FontAwesomeIcon glyphStyle="-fx-fill:#7C8184" iconName="MONEY" size="1.3em" />
+                  <Label maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="40.0" prefWidth="238.0" text="Dinero" textFill="#7c8184">
+                     <HBox.margin>
+                        <Insets left="10.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font name="Calibri Light" size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+               <padding>
+                  <Insets left="10.0" />
+               </padding>
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" layoutX="10.0" layoutY="132.0" styleClass="btns">
+               <children>
+                  <FontAwesomeIcon glyphStyle="-fx-fill:#7C8184" iconName="BOOK" size="1.3em" text="" />
+                  <Label maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="40.0" prefWidth="238.0" text="Entrenamiento" textFill="#7c8184">
+                     <font>
+                        <Font name="Calibri Light" size="15.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="10.0" />
+                     </HBox.margin>
+                  </Label>
+               </children>
+               <padding>
+                  <Insets left="10.0" />
+               </padding>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" layoutX="10.0" layoutY="132.0" styleClass="btns">
+               <children>
+                  <FontAwesomeIcon glyphStyle="-fx-fill:#7C8184" iconName="BOOK" size="1.3em" />
+                  <Label maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="40.0" prefWidth="238.0" text="Universidad" textFill="#7c8184">
+                     <font>
+                        <Font name="Calibri Light" size="15.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="10.0" />
+                     </HBox.margin>
+                  </Label>
+               </children>
+               <padding>
+                  <Insets left="10.0" />
+               </padding>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" layoutX="10.0" layoutY="132.0" styleClass="btns">
+               <children>
+                  <FontAwesomeIcon glyphStyle="-fx-fill:#7C8184" iconName="CALENDAR" size="1.3em" />
+                  <Label maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="40.0" prefWidth="238.0" text="Calendario Examen" textFill="#7c8184">
+                     <font>
+                        <Font name="Calibri Light" size="15.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="10.0" />
+                     </HBox.margin>
+                  </Label>
+               </children>
+               <padding>
+                  <Insets left="10.0" />
+               </padding>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" layoutX="10.0" layoutY="132.0" styleClass="btns">
+               <children>
+                  <FontAwesomeIcon glyphStyle="-fx-fill:#7C8184" iconName="HOME" size="1.3em" />
+                  <Label maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="40.0" prefWidth="238.0" text="Horario" textFill="#7c8184">
+                     <font>
+                        <Font name="Calibri Light" size="15.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="10.0" />
+                     </HBox.margin>
+                  </Label>
+               </children>
+               <padding>
+                  <Insets left="10.0" />
+               </padding>
+            </HBox>
+            <VBox prefHeight="200.0" prefWidth="100.0" styleClass="caja" VBox.vgrow="ALWAYS">
+               <children>
+                  <Label text="TEAM INVOLVED" textFill="#7c8184">
+                     <font>
+                        <Font name="Arial Rounded MT Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <JFXButton buttonType="RAISED" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="45.0" prefWidth="200.0" ripplerFill="WHITE" style="-fx-background-color: #00A2D3;" styleClass="boton" text="Add Team Mate" textFill="WHITE">
+                     <VBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </VBox.margin>
+                     <graphic>
+                        <FontAwesomeIcon glyphStyle=" -fx-fill:#fff" iconName="PLUS_CIRCLE" size="1.3em" />
+                     </graphic>
+                  </JFXButton>
+               </children>
+               <padding>
+                  <Insets left="10.0" top="10.0" />
+               </padding></VBox>
+         </children>
+      </VBox>
+      <AnchorPane layoutX="287.0" prefHeight="600.0" prefWidth="756.0" style="-fx-background-color: #2B3B45;" styleClass="sidebar">
+         <children>
+            <LineChart fx:id="LineChart" blendMode="ADD" layoutX="7.0" layoutY="8.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="330.0" prefWidth="744.0" style="-fx-background-color: transparent;" styleClass="chart-plot-background">
+               <xAxis>
+                  <CategoryAxis side="BOTTOM" tickLabelFill="WHITE" fx:id="x" />
+               </xAxis>
+               <yAxis>
+                  <NumberAxis fx:id="y" side="LEFT" tickLabelFill="WHITE" />
+               </yAxis>
+            </LineChart>
+            <JFXButton layoutX="636.0" layoutY="338.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: #C71414;" styleClass="boton1" text="Gasto" textFill="WHITE">
+               <font>
+                  <Font name="Ebrima Bold" size="12.0" />
+               </font>
+            </JFXButton>
+            <JFXButton layoutX="534.0" layoutY="338.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: #50B73B;" styleClass="boton1" text="Ingreso" textFill="WHITE">
+               <font>
+                  <Font name="Ebrima Bold" size="12.0" />
+               </font>
+            </JFXButton>
+            <VBox layoutX="10.0" layoutY="342.0" prefHeight="236.0" prefWidth="229.0" style="-fx-background-color: #7CCDFF;">
+               <children>
+                  <VBox prefHeight="53.0" prefWidth="223.0" style="-fx-background-color: #fff;">
+                     <children>
+                        <Label alignment="CENTER" contentDisplay="TOP" prefHeight="35.0" prefWidth="229.0" style="-fx-background-color: #4BAFCD;" text="Gastos / Ingresos" textFill="WHITE">
+                           <font>
+                              <Font name="Ebrima Bold" size="16.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </VBox>
+                  <PieChart fx:id="pieChart1" labelsVisible="false" prefHeight="220.0" prefWidth="229.0" style="-fx-background-color: transparent;" styleClass="pipe1" />
+               </children>
+            </VBox>
+            <VBox layoutX="245.0" layoutY="342.0" prefHeight="236.0" prefWidth="245.0" style="-fx-background-color: #7CCDFF;">
+               <children>
+                  <VBox prefHeight="62.0" prefWidth="238.0">
+                     <children>
+                        <Label alignment="CENTER" contentDisplay="TOP" prefHeight="51.0" prefWidth="246.0" style="-fx-background-color: #4BAFCD;" text="Tarjeta / Efectivo" textFill="WHITE">
+                           <font>
+                              <Font name="Ebrima Bold" size="16.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </VBox>
+                  <PieChart fx:id="pieChart" labelsVisible="false" prefHeight="232.0" prefWidth="244.0" />
+               </children>
+            </VBox>
+            <VBox layoutX="496.0" layoutY="429.0" prefHeight="150.0" prefWidth="238.0" style="-fx-background-color: #7CCDFF;">
+               <children>
+                  <VBox prefHeight="48.0" prefWidth="238.0">
+                     <children>
+                        <Label alignment="CENTER" contentDisplay="TOP" prefHeight="48.0" prefWidth="238.0" style="-fx-background-color: #4BAFCD;" text="Total" textFill="WHITE">
+                           <font>
+                              <Font name="Ebrima Bold" size="16.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </VBox>
+                  <ProgressBar prefHeight="33.0" prefWidth="235.0" progress="0.62">
+                     <VBox.margin>
+                        <Insets top="50.0" />
+                     </VBox.margin>
+                     <padding>
+                        <Insets left="5.0" right="5.0" />
+                     </padding>
+                  </ProgressBar>
+               </children>
+            </VBox>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

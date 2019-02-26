@@ -1,0 +1,59 @@
+.parent{
+    -fx-background-color: #fff;
+}
+.sidebar{
+    -fx-background-color: #333645;
+}
+.barraBusqueda{
+    -fx-font-color: #fff;
+}
+.btns{
+    -fx-background-color: transparent;
+}
+.btns:hover{
+    -fx-background-color: #202332;
+    -fx-font-size: 22;
+}
+.caja{
+    -fx-border-color: #7c8184;
+    -fx-border-width: 1px 0px 0px 0px;
+}
+.boton{
+    -fx-background-radius: 22;  
+}
+.boton:pressed{
+     -fx-font-size: 10;
+}
+.boton1{
+    -fx-background-radius: 100;  
+     -fx-background-color: #00A2D3;
+}
+.boton1:pressed{
+     -fx-font-size: 10;
+}
+.data0.chart-pie { -fx-pie-color: turquoise; }
+.data1.chart-pie { -fx-pie-color: aquamarine; }
+
+.chart{
+    -fx-padding: 10px;
+}
+.axis-label{
+    -fx-text-fill: #fff;
+    -fx-font-size: 3.5em;
+}
+.chart-plot-background{
+    -fx-background-color: transparent;
+}
+.chart-vertical-grid-lines{
+    -fx-stroke: transparent;
+}
+.chart-horizontal-grid-lines{
+    -fx-stroke: #7c8184;
+}
+.default-color0.chart-series-line {-fx-stroke: turquoise;}
+.default-color1.chart-series-line {-fx-stroke: aquamarine;}
+.default-color0.chart-line-symbol { -fx-background-color: turquoise; }
+.default-color1.chart-line-symbol { -fx-background-color: aquamarine; }
+
+
+
